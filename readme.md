@@ -29,6 +29,14 @@ Add a test command in your data adapter's `package.json`. Example scripts sectio
   }
 ```
 
+If the data adapter requires an options object to initialise, add this in `package.json` like shown below:
+
+```js
+	"custom": {
+		"testOptions": "localhost/db"
+	}
+``` 
+
 Run tests using
 
 ```
@@ -38,6 +46,9 @@ npm test
 
 Changelog
 ---------
+
+### v0.0.3
+- Updated readme - added details on how to add adapter options to be used by the test suite when initialising the adapter
 
 ### v0.0.2
 - Updated readme
