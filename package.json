@@ -1,0 +1,27 @@
+{
+  "name": "katar-db-test",
+  "version": "0.0.1",
+  "description": "Test suite for testing data adapters for katar",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --harmony --bail --timeout 5000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jksdua/katar-db-test"
+  },
+  "keywords": [
+    "queue",
+    "data-adapter"
+  ],
+  "author": "Jaap Karan Singh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jksdua/katar-db-test/issues"
+  },
+  "homepage": "https://github.com/jksdua/katar-db-test",
+  "dependencies": {
+    "co": "~3.0.4",
+    "chai": "~1.9.0"
+  }
+}
