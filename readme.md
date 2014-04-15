@@ -11,11 +11,15 @@ Usage
 
 Install dependencies
 
-`npm install mocha -g`
+```
+npm install mocha -g
+```
 
 Install the test suite using:
 
-`npm install katar-db-test --save-dev`
+```
+npm install katar-db-test --save-dev
+```
 
 Add a test command in your data adapter's `package.json`. Example scripts section from `katar-memorydb` is shown below:
 
@@ -25,9 +29,18 @@ Add a test command in your data adapter's `package.json`. Example scripts sectio
   }
 ```
 
+Run tests using
+
+```
+npm test
+```
+
 
 Changelog
 ---------
+
+### v0.0.2
+- Updated readme
 
 ### v0.0.1 - Alpha
 - Initial release
